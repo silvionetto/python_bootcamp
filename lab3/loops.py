@@ -11,3 +11,7 @@ for i in x:
 x = [(1,2),(3,4),(5,6)]
 for (i1,i2) in x:
   print(i1)
+
+x = {'k1':1,'k2':2}
+for k,v in x.items():
+  print(v)
