@@ -7,3 +7,7 @@ for i in x:
     print("menor")
   else:
     print("maior")
+
+x = [(1,2),(3,4),(5,6)]
+for (i1,i2) in x:
+  print(i1)
